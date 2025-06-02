@@ -4,7 +4,9 @@
 1111
 2222
 3333
-
+4444
+5555
+6666
 
 ttttThis is a module for face detection with convolutional neural networks (CNNs). It uses a small CNN as a binary classifier to distinguish between faces and non-faces. A simple sliding window (with multiple windows of varying size) is used to locaize the faces in the image.
 
@@ -14,7 +16,7 @@ ttttThis is a module for face detection with convolutional neural networks (CNNs
     2. OpenCV for Python
 
 **Network topology**
-
+New proyect
 The network consists of 3 convolution layers
 
     Input: 32x32 black and white image
@@ -31,7 +33,7 @@ The network consists of 3 convolution layers
                 2 units
 
 **Training parameters**
-
+Learning is very interesting
 The network was trained with TensorFlow's AdamOptimzer 
     
     lrate: 1e-4
@@ -72,3 +74,4 @@ Demos with other images can be seen here: https://youtu.be/N4GIGVnyNBo
 
 Output of demo.py:
 ![Alt text](demo_result.png?raw=true)
+BYE??
