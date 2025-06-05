@@ -8,29 +8,26 @@
 5555
 6666
 
-ttttThis is a module for face detection with convolutional neural networks (CNNs). It uses a small CNN as a binary classifier to distinguish between faces and non-faces. A simple sliding window (with multiple windows of varying size) is used to locaize the faces in the image.
+Claro, aquí tienes un texto claro y motivador sobre **aprender a programar**, ideal para un ensayo corto, una publicación o presentación:
 
-**Requirements**
-    
-    1. TensorFlow
-    2. OpenCV for Python
+---
 
-**Network topology**
-New proyect
-The network consists of 3 convolution layers
+### **Aprender a Programar: Mucho Más que Escribir Código**
 
-    Input: 32x32 black and white image
-    1. Layer 1: 5x5 convolutions
-                4 feature maps
-    2. Layer 2: 3x3 convolutions
-                16 feature maps
-    3. Layer 3: 3x3 feature maps
-                32 feature maps
-    Layer 3 outputs 32 4x4 feature maps
-    4. Layer 4: Fully connected layer
-                600 units
-    5. Layer 5: Softmax layer
-                2 units
+Aprender a programar es una de las habilidades más valiosas del siglo XXI. No se trata solo de escribir líneas de código en una pantalla, sino de desarrollar la capacidad de resolver problemas, pensar lógicamente y construir herramientas que impacten el mundo real.
+
+Programar es como aprender un nuevo lenguaje, pero en lugar de comunicarte con personas, te comunicas con computadoras. A través de lenguajes como Python, JavaScript o C++, das instrucciones precisas que las máquinas ejecutan al pie de la letra. Esto requiere atención al detalle, paciencia y mucha práctica.
+
+El camino para convertirse en programador puede parecer desafiante al principio. Es común sentirse frustrado cuando algo no funciona o no se entiende un concepto técnico. Pero con perseverancia, cada error se convierte en una oportunidad de aprendizaje. Cada pequeño logro —como hacer que un botón funcione o que un programa calcule correctamente— alimenta la confianza y la motivación para seguir.
+
+Además, programar te abre puertas a un mundo de creatividad. Desde desarrollar aplicaciones móviles, videojuegos, sitios web, hasta trabajar con inteligencia artificial o análisis de datos, las posibilidades son prácticamente infinitas.
+
+Lo más importante es empezar, aunque sea con lo más básico. Hoy en día, hay muchos recursos gratuitos y accesibles para aprender, desde plataformas en línea hasta comunidades de apoyo. Con dedicación constante, cualquiera puede aprender a programar y convertir esa habilidad en una herramienta poderosa para su vida personal y profesional.
+
+---
+
+¿Quieres que lo adapte a un público específico, como niños, estudiantes, adultos, o para una presentación?
+
 
 **Training parameters**
 Learning is very interesting
